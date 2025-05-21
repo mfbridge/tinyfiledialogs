@@ -1,11 +1,19 @@
-url: https://mfbridge.github.io/tinyfiledialogs
+url: https://mfbridge.github.io/tinyfiledialogs/
 template:
   bootstrap: 5
   bootswatch: sandstone
 home:
   sidebar:
-    structure: [links, license, community, citation, authors, dev, custom]
+    structure:
+    - links
+    - license
+    - community
+    - citation
+    - authors
+    - dev
+    - custom
     components:
       custom:
         title: Original C/C++ Library
         text: <a href='https://tinyfiledialogs.sourceforge.net/'>tinyfiledialogs</a>
+

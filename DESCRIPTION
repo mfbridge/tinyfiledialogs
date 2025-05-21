@@ -20,4 +20,4 @@ Config/roxytypes:
     list(format = "`{type}` {description}")
 Roxygen: 
     list(packages = "roxytypes", markdown = TRUE)
-URL: https://mfbridge.github.io/tinyfiledialogs
+URL: https://mfbridge.github.io/tinyfiledialogs, https://mfbridge.github.io/tinyfiledialogs/
