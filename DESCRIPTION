@@ -1,0 +1,23 @@
+Package: tinyfiledialogs
+Title: A wrapper around the tinyfiledialogs C/C++ library for cross-platform system modal dialogs
+Type: Package
+Version: 3.19.1
+Authors@R: c(
+    person("Matthew", "Bridge", email = "matt@mfb.gg", role = c("adp", "cre", "aut"), comment = "Creator of Rcpp wrapper.")
+    )
+Description: This is an Rcpp wrapper to Guillaume Vareille's portable & cross-platform tinyfiledialogs C/C++ library which provides standard modal dialogs 
+    for file & folder selections, message boxes, text, and color inputs. These are slightly more versatile than those found within the rstudioapi package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Imports: Rcpp (>= 1.0.14)
+LinkingTo: Rcpp
+RoxygenNote: 7.3.2
+Config/Needs/documentation: 
+    roxytypes
+Config/roxytypes:
+    list(format = "`{type}` {description}")
+Roxygen: 
+    list(packages = "roxytypes", markdown = TRUE)
+URL: https://mfbridge.github.io/tinyfiledialogs

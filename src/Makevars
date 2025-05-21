@@ -1,0 +1,1 @@
+PKG_LIBS = -lole32 -lcomdlg32
